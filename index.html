@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepal Magar Association</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="https://via.placeholder.com/60x60/ff6b35/ffffff?text=NMA" alt="Nepal Magar Association">
+                <div class="logo-text">
+                    <h2>Nepal Magar Association</h2>
+                    <span>नेपाल मगर संघ</span>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="admin.html" class="admin-link">Admin</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Nepal Magar Association</h1>
+            <h2>नेपाल मगर संघमा स्वागत छ</h2>
+            <p>Preserving and promoting Magar culture, traditions, and community welfare</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Join Us</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop" alt="Nepal Mountains">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>The Nepal Magar Association is dedicated to preserving and promoting the rich cultural heritage of the Magar community. We work to unite Magar people worldwide and support community development initiatives.</p>
+
+                    <h3>Our Vision</h3>
+                    <p>To create a strong, united global Magar community that celebrates its traditions while embracing progress and development for future generations.</p>
+
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>5000+</h4>
+                            <p>Members</p>
+                        </div>
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Branches</p>
+                        </div>
+                        <div class="stat">
+                            <h4>25+</h4>
+                            <p>Years</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=500&h=400&fit=crop" alt="Cultural Heritage">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Education Support</h3>
+                    <p>Scholarship programs and educational assistance for Magar students</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Community Welfare</h3>
+                    <p>Social welfare programs and community development initiatives</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Cultural Events</h3>
+                    <p>Organizing cultural festivals and traditional celebrations</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Youth Programs</h3>
+                    <p>Youth development and leadership training programs</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Networking</h3>
+                    <p>Creating connections and opportunities within the community</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Emergency Support</h3>
+                    <p>Disaster relief and emergency assistance programs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news">
+        <div class="container">
+            <h2>Latest News & Events</h2>
+            <div class="news-grid" id="newsGrid">
+                <!-- News items will be loaded here -->
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary" onclick="loadMoreNews()">Load More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Kathmandu, Nepal<br>Ward No. 5, Thamel</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+977-1-4444444<br>+977-9841234567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@nepalmagarassociation.org.np<br>contact@nma.org.np</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Nepal Magar Association</h4>
+                    <p>Preserving culture, building community, creating opportunities for all Magar people worldwide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Education Support</a></li>
+                        <li><a href="#">Community Welfare</a></li>
+                        <li><a href="#">Cultural Events</a></li>
+                        <li><a href="#">Youth Programs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</p>
+                    <p><i class="fas fa-phone"></i> +977-1-4444444</p>
+                    <p><i class="fas fa-envelope"></i> info@nma.org.np</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nepal Magar Association. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
